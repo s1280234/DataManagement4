@@ -6,5 +6,7 @@ public static void main(String[] args){
         System.out.println("Die2: " +value2);
         int total = value1 + value2;
         System.out.println("Total value: " +total);
+        if(total > 7) System.out.println("You won");
+    else if(total <= 7) System.out.println("You lost");
         }
     }
